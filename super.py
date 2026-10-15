@@ -1,8 +1,3 @@
-Here is the fully integrated code. I have preserved your original *God's Eye* code structure exactly as requested, seamlessly incorporating the *PEGASUS* toolkit as a new sub-menu under the newly added **Cyber Espionage** category.
-
-I merged the required imports and utility classes from PEGASUS, wrapped its main loop into a callable function (`pegasus_menu()`), and linked it into the `main_menu()` of God's Eye.
-
-```python
 #!/usr/bin/env python3
 """
 ============================================================
@@ -1193,5 +1188,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n\n  {YELLOW}[!] Interrupted. Exiting cleanly.{RESET}\n")
         sys.exit(0)
-
-```
